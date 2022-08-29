@@ -1,0 +1,129 @@
+
+#cardContainer{
+    padding-top: 80px;
+    width: 107%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     gap: 30px;
+     
+
+
+    
+
+}
+.collapse-button{
+    position: relative;
+    padding-top: 600px;
+    padding-left: 120px;
+    
+}
+.logo{
+    width: 80%;
+    object-fit: cover;
+    display: block;
+    justify-content: center;
+    align-self: center ;
+    margin: 0 auto;
+    margin-top: -55px;
+}
+.sidebar {
+    height: 100%; 
+    width: 160px; 
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #ccc;
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+.cart-button {
+        
+    height: 55px;
+    
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
+    
+}
+.cart-button img{
+    margin-left: auto;
+    padding-left: 900px;
+    margin-top: -25px;
+    max-width: 30px;
+    float: right;
+
+}
+.topNavbar
+{
+    width: 112%;
+   
+    max-height: 55px;
+    position: fixed;
+    margin-top: -10px;
+    background-color: #fddffd;
+    margin-bottom: 4px;
+    list-style-type: none;
+
+    padding: 0;
+    float:left
+}
+.topNavbar li{
+    display: inline;
+    float: left;
+
+}
+.topNavbar h1{
+    
+    text-align: center;
+    
+}
+.topNavbar li a{
+
+    height: 27px;
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    text-align: center;
+    padding:  14px 16px;
+    text-decoration: none;
+}
+.topNavbar li a:hover{
+    background-color: #111;
+}
+.itemContainer
+{
+    display: block;
+    padding: 10px;
+    float: left;
+    
+    
+}
+.cardDetails
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+
+}
+
+body{
+
+    display: flex;
+    margin-left: 160px;
+    flex-direction: column;
+    width: 80%;
+
+}
+.heading-body{
+    color: aqua;
+    text-decoration: double;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
